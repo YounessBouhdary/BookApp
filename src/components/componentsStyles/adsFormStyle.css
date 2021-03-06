@@ -1,0 +1,146 @@
+#booksForm{
+    font-family: 'Ubuntu';
+    color: #222529;
+    /* background: rgb(164,22,26); */
+    /* background: linear-gradient(90deg, rgba(164,22,26,1) 0%, rgba(186,24,27,1) 50%, rgba(229,56,59,1) 100%); */
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#booksForm h1, #booksForm p{
+    margin: 20px;
+}
+
+.singleBookInput{
+    padding-left: 22px;
+}
+
+.formBookInput, .tel, .titreLivre, .description, .nomAuteur, .cagLivre, .nomFaculte, .etatLivre, .branche, .langueLivre, .prixLivre{
+    padding-left: 10px;
+    margin: auto;
+    color: #222529;
+    font-size: 15px;
+    height: 30px;
+    width: 180px;
+    border-radius: 5px;
+    border: solid 1px  rgb(164,22,26);
+    background-color: #f7fff7;
+    box-shadow: 0px 0px 2px   #222529;
+    margin: 20px 2px 0 2px;
+}
+.description{
+    font-family: 'ubuntu';
+    margin: 0;
+    width: 500px;
+    height: 100px;
+}
+
+
+
+
+.fileInput{
+    margin-top: 20px;
+}
+
+.descLivre{
+    margin-top: 20px;
+    height: 20vh;
+    width: 50vw;
+    font-family: "ubuntu";
+    font-size: 18px;
+    border: solid 1px  rgb(164,22,26);
+    background-color: #f7fff7;
+    box-shadow: 0px 0px 2px   #222529;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+
+
+
+#nextStep, #prevStep, #booksForm button, #submitbtn:hover{
+    margin: 15px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Ubuntu';
+    color: #f7fff7;
+    background: rgba(229,56,59,1);
+    height: 40px;
+    width: 250px;
+}
+
+#nextStep:hover, #prevStep:hover, #booksForm button:hover, #submitbtn {
+    background:rgb(164,22,26);
+    height: 40px;
+    width: 250px;
+    margin: 15px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Ubuntu';
+    color: #f7fff7;
+}
+
+#steps{
+    display: flex;
+    list-style: none;
+}
+
+#steps li{
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px 50px;
+    background-color: #2225290a;
+    color: #222529b2;
+    border-radius: 10px;
+}
+#steps li:hover{
+    cursor: pointer;
+}
+
+.allParts{
+    display: flex;
+    align-items: center;
+    width: 900px;
+    background-color: #2225290a;
+}
+
+.allParts input, .allParts select{
+    height: 50px;
+    width: 350px;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.allParts label{
+    font-size: 20px;
+}
+
+.label_input{
+    display: flex;
+    width: 460px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.firstPart, .secondPart, .thirdPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    margin: 80px auto;
+}
+
+.updateModal{
+    width: 280px !important;
+    height: 180px !important;
+}
+
+.updateModal h1{
+    text-align: center;
+    margin-top: 60px;
+    color: #222529;
+}

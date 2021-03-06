@@ -1,0 +1,199 @@
+#modelButtunclose{
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+    color: #f7fff7;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #E5383b;
+}
+
+button{
+    outline: none;
+}
+
+#Signup_logo{
+    color: #222529;
+    font-size: 30px;
+    width: 140px;
+    margin: auto;
+    font-weight: bolder;
+}
+
+#Signup_logo .ma{
+    color: #E5383b;
+    font-size: 25px;
+    display: inline-block;
+    transform: rotate(15deg);
+}
+
+.Signup_logoDesc{
+    width: 238px;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 20px;
+    color: #E5383b;
+}
+
+.signUp, .login{
+    border: none;
+    height: 100%;
+    margin: auto;
+    font-family: 'Ubuntu';
+}
+
+
+
+.Signup_logoPart{
+    margin: 20px 50px;
+}
+
+.signupImage{
+    height: 70px;
+    margin: 0 35%;
+}
+
+
+.signupModal {
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    background-color: #f7fff7;
+    font-family: 'Ubuntu';
+    padding:0px;
+    width:400PX;
+    margin:auto;
+    height: 560px;
+    box-shadow: 0px 0 5px black;
+  }
+
+  .signupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+
+.signUp form, .login form {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+.inputitem{
+    display: flex;
+    width: 570px;
+    justify-content: space-between;
+
+    margin: 20px;
+}
+
+.inputitem label{
+    font-size: 20px;
+}
+
+
+
+
+.inputitem input, .inputitem select,.login label input{
+    height: 50px;
+    margin-left: 20px;
+    border: none;
+    background-color: #d3ddd3;
+    outline: none;
+    padding-left: 10px;
+    border-bottom: #ba181b;
+    font-size: 25px;
+    width: 350px;
+}
+
+#signupBtn{
+    background-color: #E5383b;
+    color: #f7fff7;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    height: 35px;
+    width: 250px;
+    margin: 20px auto;
+}
+
+#signupBtn:hover{
+    background-color: #ba181b;
+}
+
+
+  @media screen and (max-width: 768px){
+    .signupModal{
+        width: 300px;
+        height: 540px;
+    }
+    .signupImage{
+        margin: 0 28%;
+    }
+
+    .inputitem, .login label{
+        margin: 4px 40px;
+    }
+
+    #Signup_logo{
+        font-size: 25px;
+        margin: auto;
+    }
+    
+    #Signup_logo .ma{
+        font-size: 20px;
+    }
+
+    #signupBtn{
+        -webkit-appearance: none;
+    }
+
+  }
+
+
+.partOne, .partTwo, .partThree{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+
+.signUpSteps li{
+    margin: auto !important;
+    font-size: 25px !important;
+    border-radius: 50px !important;
+}
+
+#s1, #s2, #s3{
+    cursor: default !important;
+}
+
+.error{
+    color: #ba181b;
+}
+
+#resetForm{
+    padding-top: 100px;
+    margin: auto !important;
+    width: 40%;
+    height: 500px;
+}
+#resetEmail{
+    margin: auto !important;
+    
+}
+#resetRecaptcha{
+    width: 310px;
+    margin: auto;
+}

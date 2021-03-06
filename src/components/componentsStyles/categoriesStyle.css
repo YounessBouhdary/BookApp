@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+button{
+    outline: none;
+}
+
+.categoriesPart{
+    font-family: 'Ubuntu';
+    color: #222529;
+    background-color: #f7fff7;
+}
+
+.categoriesPart h1{
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.category{
+    margin: 0 20px;
+    height: 250px;
+    width: 300px;
+    transition-duration: 1s;
+}
+
+.category p{
+    margin-top: 20px;
+    font-size: 25px;
+    color:  rgba(186,24,27,1);
+    font-weight: bolder;
+    transition-duration: 500ms;
+}
+
+
+.category button{
+    border-radius: 100%;
+    background: rgb(164,22,26);
+    background: linear-gradient(90deg, rgba(164,22,26,1) 0%, rgba(186,24,27,1) 50%, rgba(229,56,59,1) 100%);
+    height: 180px;
+    width: 180px;
+    border: none;
+    transition-duration: 500ms;
+}
+
+.category button img{
+    height: 100px;
+    width: 100px;
+}
+
+
+
+#categoriesLigne_1, #categoriesLigne_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#categoriesLignes{
+    margin: 0px 25vh 50px 25vh;
+}
+
+
+@media screen and (max-width: 768px){
+
+    #categoriesLignes{
+        margin: 0;
+    }
+
+    #categoriesLigne_1, #categoriesLigne_2{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .category{
+        margin-top: 50px;
+    }
+    .categoriesPart{
+        padding-bottom: 70px;
+    }
+}
+
+#categoriesLigne_1 a, #categoriesLigne_2 a{
+    text-decoration: none;
+}

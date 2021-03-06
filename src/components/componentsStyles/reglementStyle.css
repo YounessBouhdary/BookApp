@@ -1,0 +1,19 @@
+.reglement h1{
+    color: #E5383b;
+    padding: 20px;
+}
+.reglement{
+    margin: 50px;
+}
+
+.reglement h3{
+    text-align: left;
+    font-size: 20px;
+    color: #E5383b;
+    margin: 20px;
+}
+
+.reglement p{
+    text-align: left;
+    font-size: 18px;
+}

@@ -1,0 +1,50 @@
+
+.bookImage{  
+    width: 300px;
+    height: 350px;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 28px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bookinfos, .sellerInfos{
+    margin: 12px;
+    font-family: 'ubuntu';
+    font-size: 20px;
+    width: 400px;
+    height: 200px;
+    color: #222529;
+    padding: 20px;
+    border-radius: 28px;
+    background-color: #F7FFF7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sellerInfos{
+    height: 135px;
+}
+
+.oneProduct{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.bookinfos table, .sellerInfos table
+{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.bookinfos table tr, .sellerInfos table tr{
+    margin: auto; 
+}
+
+.bookinfos table td, .sellerInfos table td{
+    margin: auto;
+    padding:  2px 10px;
+}

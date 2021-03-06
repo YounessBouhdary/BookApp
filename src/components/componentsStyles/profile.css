@@ -1,0 +1,82 @@
+
+.personnalInfos{
+    font-family: 'ubuntu';
+    font-size: 20px;
+    width: 400px;
+    margin: 50px 0;
+    padding: 50px 5px;
+    color: #222529;
+    border-radius: 28px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.personnalInfos #userIcon{
+    font-size: 120px;
+    color: rgba(164,22,26,1)
+}
+
+.userBooks{
+    font-family: 'ubuntu';
+    font-size: 20px;
+    width: 800px;
+    margin: 50px 0;
+    padding: 50px 5px;
+    color: #222529;
+    border-radius: 28px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.userBooks table
+{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+
+.userBooks table td{
+    border-right: solid 1px;
+    padding: 5px 10px;
+    
+}
+
+.userBooks table th{
+    padding: 10px;
+}
+
+.userBooks table td button{
+    padding: 0;
+}
+
+.deletebtn{
+    padding: 0;
+    border: none !important;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#booksLinks{
+    text-decoration: none;
+    color: inherit; 
+}
+
+#booksLinks:hover{
+    color: rgba(164,22,26,1);
+    text-decoration: underline;
+}
+.deletebtn{
+    background-color: rgba(164,22,26,1);
+    width: 80px;
+    height: 30px;
+    color: white;
+}
+
+.deletebtn:hover{
+    background-color: #222529;
+    width: 80px;
+    height: 30px;
+    color: white;
+}

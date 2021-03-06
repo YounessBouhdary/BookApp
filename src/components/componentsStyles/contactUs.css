@@ -1,0 +1,42 @@
+.ContactUS {
+    font-family: 'Ubuntu';
+    margin: 50px;
+    text-align: left;
+}
+
+.ContactUS h3, th{
+    color: #E5383b;
+    margin: 20px 0; 
+}
+
+.ContactUS h3{
+    font-size: 25px;
+}
+
+.ContactUS p, td{
+    font-size: 18px;
+}
+
+.ContactUS  td, th{
+    border-right: solid 1px #E5383b;
+    border-bottom: solid 1px #E5383b;
+    padding: auto;
+    width: 200px;
+}
+
+.ContactUS table {
+    margin: 50px auto;
+}
+
+.ContactUS ul{
+    list-style: none;
+}
+
+.ContactUS ul li{
+    margin: 20px 10px;
+}
+
+#ourEmail{
+    color: #E5383b;
+    text-decoration: underline;
+}

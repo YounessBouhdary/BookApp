@@ -1,0 +1,167 @@
+.landing{
+    font-family: 'Ubuntu';
+    display: flex;
+    padding: 30px 70px;
+    color: #222529;
+    margin-bottom: 20px;
+}
+
+button{
+    outline: none;
+}
+
+.logoPart{
+    width: 40%;
+    font-size: 22px;
+}
+
+.logoPart img{
+    margin-top: 20px;
+    width: 160px;
+    height: 140px;
+}
+
+.logoDesc{
+    margin: 5px auto;
+    width: 300px;
+}
+
+.logoPart #ma{
+    color: #E5383b;
+    font-size: 50px;
+    display: inline-block;
+    transform: rotate(15deg);
+}
+
+#logo{
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+
+
+
+.landingText{
+    padding-top: 50px;
+    padding-left: 40px;
+    border-left: solid 1px #ececec;
+}
+
+.landingText h1{
+    font-weight: normal;
+    display: flex;
+    text-align: start;
+    font-size: 40px;
+}
+
+.landingText h1 p{
+    font-weight: bolder;
+    margin-left: 6px;
+}
+
+.landingText h1 p span{
+    color: #E5383b;
+    font-size: 32px;
+    display: inline-block;
+    transform: rotate(15deg);
+    position: absolute;
+    margin-top: 10px;
+    z-index: -1;
+}
+
+#description{
+    padding: 20px 20px;
+    text-align: start;
+    margin: 20px 20px;
+    width: 100vh;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+#description span{
+    color: #E5383b;
+}
+
+
+.btn_1 {
+    font-size: 2.5vh;
+    color: #F7FFF7;
+    border: 0;
+    background-color: #E5383b;
+    width: 35vh;
+    height: 6vh;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.btn_2 {
+    font-size: 2.5vh;
+    color: #E5383b;
+    border: solid #E5383b 1px;
+    background-color: #F7FFF7;
+    width: 35vh;
+    height: 6vh;
+    border-radius: 2px;
+}
+
+.btn_1:hover{
+    background-color: #ba181b;
+}
+
+.btn_2:hover{
+    color: #F7FFF7;
+    background-color: #ba181b;
+}
+
+
+@media screen and (max-width: 768px){
+    .landing{
+        flex-direction: column;
+        padding: 0;
+    }
+    .logoPart{
+        display: none;
+    }
+
+    .landingText{
+        width: 100%;
+        padding: 40px 0;
+    }
+    
+    .landingText h1{
+        margin-left: 15px;
+        font-weight: normal;
+        display: flex;
+        text-align: start;
+        font-size: 30px;
+    }
+    
+    .landingText h1 p span{
+        color: #E5383b;
+        font-size: 25px;
+        display: inline-block;
+        transform: rotate(15deg);
+    }
+    
+    #description{
+        padding: 20px 0px;
+        margin: 6px auto;
+        text-align: center;
+        width: 80%;
+        font-size: 26px;
+        line-height: 30px;
+    }
+    
+    .landingBtns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 6px;
+    }
+
+    .btn_1, .btn_2{
+        margin: 6px 0;
+        height: 40px;
+    }
+
+}

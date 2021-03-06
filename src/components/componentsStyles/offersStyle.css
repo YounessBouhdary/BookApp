@@ -1,0 +1,60 @@
+
+
+button{
+    outline: none;
+}
+
+.offers{
+    font-family: 'Ubuntu';
+    background: rgb(164,22,26);
+    background: linear-gradient(90deg, rgba(164,22,26,1) 0%, rgba(186,24,27,1) 50%, rgba(229,56,59,1) 100%);
+    padding-bottom: 20px;
+    
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+.offers h2{
+    font-size: 45px;
+    color: #f7fff7;
+    margin: 25px 0;
+}
+
+
+
+.offers img {
+    border-bottom: 1px solid rgb(164,22,26);
+    height: 80%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.singleOffer{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 45vh;
+    width: 37vh !important;
+    background-color: #f7fff7;
+    border-radius: 10px;
+    color: #242424;
+    margin: 10px 10px;
+}
+
+.singleOffer h3,.singleOffer h4{
+    padding: 10px;
+    margin: auto;
+    height: 5%;
+}
+
+.singleOffer h3{
+    color: rgb(164,22,26);
+}
+
+.singleOffer a{
+    text-decoration: none;
+}

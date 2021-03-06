@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+.searchBox{
+    font-family: 'Ubuntu';
+    color: #f7fff7;
+    width: 100%;
+    border:  solid 1px;
+    border-color:  rgb(164,22,26);
+    background: rgb(164,22,26);
+    background: linear-gradient(90deg, rgba(164,22,26,1) 0%, rgba(186,24,27,1) 50%, rgba(229,56,59,1) 100%);
+    padding: 25px 0 40px 0;
+    
+}
+
+
+.searchBox h1{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+#searchbox_upper{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.searchItem{
+    padding-left: 10px;
+    color: #222529;
+    font-size: 15px;
+    height: 40px;
+    width: 260px;
+    border-radius: 5px;
+    border: solid 1px  rgb(164,22,26);
+    background-color: #f7fff7;
+    box-shadow: 0px 0px 2px   #222529;
+}
+
+
+form div{
+    display: flex;
+    align-items: center;
+}
+
+.inputIcon{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.searchBox form button{
+    color: #f7fff7;
+    background-color:  rgb(164,22,26);
+    width: 250px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#searchIcon{
+    margin-right: 10px;
+}
+
+.searchBox form button:hover{
+    background-color:   rgba(229,56,59,1);
+}
+
+
+
+
+/************************************************************/
+
+#searchbox_lower{
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.checkboxes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: none;
+    background-color: #f7fff7;
+    color: #222529;
+    margin: 0 60px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px   #222529;
+}
+
+.checkboxes h3{
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+
+.checkbox{
+    margin: 3px 20px;
+}
+
+
+button{
+    outline: none;
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+    #searchbox_upper{
+        flex-direction: column;
+        margin:auto;
+    }
+
+    form div{
+        margin: 10px;
+    }
+
+
+    .searchBox form button{
+        margin: auto 30px;
+        width: 250px;
+        height: 50px;
+    }
+
+    #searchIcon{
+        font-size: 18px;
+    }
+
+    #searchbox_lower{
+        margin-top: 0px;
+    }
+
+    .checkboxes{
+        margin: 25px 5px;
+    }
+}

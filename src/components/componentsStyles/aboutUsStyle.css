@@ -1,0 +1,24 @@
+.AboutUS{
+    margin: 50px;
+    height: 280px;
+}
+
+.AboutUS h1{
+    font-size: 50px;
+    color: #E5383b;
+}
+.AboutUS p{
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+.AboutUS a{
+    color: #E5383b;
+    text-decoration: underline;
+}
+
+.AboutUS span{
+    color: #E5383b;
+}

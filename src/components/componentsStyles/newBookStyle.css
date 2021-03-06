@@ -1,0 +1,42 @@
+.newBook a {
+    border: solid;
+    width: 250px;
+    margin: 20px;
+    padding: 60px 10px;
+    background-color: rgb(164,22,26);
+    font-size: 20px;
+    color: #f7fff7;
+    border-radius: 10px;
+}
+
+.newBook a span{
+    font-size: 12px;
+}
+
+
+
+
+.newBook a:hover {
+    
+    background-color: rgba(229,56,59,1);
+
+    color: #f7fff7;
+
+}
+
+
+
+
+.newBook .links{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    flex-wrap: wrap;
+    
+}
+
+.newBook h2 {
+    color: rgb(164,22,26);
+    font-size: 30px;
+    margin: 50px;
+}

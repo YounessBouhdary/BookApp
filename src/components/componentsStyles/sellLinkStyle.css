@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.sellLink{
+    font-family: 'Ubuntu';
+    color: #222529;
+    padding: 80px 20vh;
+}
+
+
+.sellLink p{
+    font-size: 30px;
+    line-height: 150%;
+    width: 80%;
+    margin: auto;
+}
+
+.sellLink p span{
+    color:#E5383b;
+}
+
+.sellLink button{
+    border: none;
+    background: #E5383b;;
+    color: #f7fff7;
+    margin-top: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    font-weight: lighter;
+    padding: 10px 45px;
+}
+
+.sellLink button:hover{
+    box-shadow: 2px 2px 10px #E5383b;
+}
+
+button{
+    outline: none;
+}
+
+@media screen and (max-width: 768px){
+    .sellLink{
+        padding: 60px 4vh;
+    }
+    
+
+    .sellLink p{
+        font-size: 25px;
+    }
+
+}
