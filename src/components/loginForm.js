@@ -17,6 +17,7 @@ function LoginForm(){
             username: username,
             password: password
         }
+        console.log(user);
         Axios.post('https://kotobima.herokuapp.com/userLogin', user);       
     };
 
